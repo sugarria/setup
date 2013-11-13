@@ -33,6 +33,7 @@ wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 
 # git pull and install dotfiles as well
 cd $HOME
+
 if [ -d ./dotfiles/ ]; then
     mv dotfiles dotfiles.old
 fi
